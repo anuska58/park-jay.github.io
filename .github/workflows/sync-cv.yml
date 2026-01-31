@@ -17,7 +17,7 @@ jobs:
         run: |
           mkdir -p assets/pdf
           curl -L \
-           https://raw.githubusercontent.com/anuska58/mrparkcv/main/test-cv.pdf \
+           https://raw.githubusercontent.com/anuska58/mrparkcv/main/test_cv.pdf \
             -o assets/pdf/cv.pdf
 
       - name: Commit and push if changed
